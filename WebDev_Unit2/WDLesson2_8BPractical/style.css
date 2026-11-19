@@ -12,10 +12,12 @@ html, body{
 a{
    text-decoration: none;
 }
-.Banner{
-   flex:1;
-   text-align: center;
-   padding:10px;
+#banner{
+   font-size: 18pt;
+   padding: 15px;
+}
+#banner div{
+   flex: 1;
 }
 nav a{
    flex: 1;
@@ -24,9 +26,33 @@ nav a{
    color: white;
    padding: 15px;
    box-shadow: 4px 2px 4px 0px rgba(0,0,0,0.5);
+   transition: 0.25s
 }
 nav a:hover{
    background-color: whitesmoke;
    color: green;
    transition: 0.25s;
+}
+
+#Links{
+   flex-direction: column;
+   border: solid 3px rgba(0,0,0,0.5);
+   flex: 1;
+}
+#Links a{
+   color: black;
+   font-size: 12pt;
+   flex: 1;
+   padding: 5px;
+}
+#Main, #Sample{
+   flex: 4;
+   padding: 100px;
+   font-size: 18pt;
+}
+#footer{
+   background-color: green;
+   color: white;
+   text-align: center;
+   padding: 1px;
 }
